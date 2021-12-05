@@ -1,7 +1,7 @@
 {
-    "name": "dplayer",
-    "version": "1.26.0",
-    "description": "Wow, such a lovely HTML5 danmaku video player",
+    "name": "libdrive-dplayer",
+    "version": "1.27.0",
+    "description": "libDrive's fork of tsukumijima/DPlayer",
     "main": "dist/DPlayer.min.js",
     "scripts": {
         "start": "npm run dev",
@@ -17,25 +17,15 @@
     "files": [
         "dist"
     ],
-    "repository": {
-        "url": "git+https://github.com/DIYgod/DPlayer.git",
-        "type": "git"
-    },
-    "keywords": [
-        "player",
-        "danmaku",
-        "video",
-        "html5"
-    ],
     "gitHooks": {
         "pre-commit": "npm run format:staged"
     },
-    "author": "DIYgod",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/DIYgod/DPlayer/issues"
+    "dependencies": {
+        "aribb24.js": "1.7.13",
+        "axios": "^0.21.4",
+        "balloon-css": "^1.0.3",
+        "promise-polyfill": "8.2.0"
     },
-    "homepage": "https://github.com/DIYgod/DPlayer#readme",
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.4.5",
@@ -74,10 +64,19 @@
         "webpack-dev-server": "^3.8.1",
         "yorkie": "^2.0.0"
     },
-    "dependencies": {
-        "aribb24.js": "1.7.13",
-        "axios": "^0.21.4",
-        "balloon-css": "^1.0.3",
-        "promise-polyfill": "8.2.0"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/libDrive/dplayer.git"
+    },
+    "author": "Elias Benbourenane <me@elias.eu.org> (https://elias.eu.org)",
+    "funding": [
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/eliasbenb"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/libDrive/libDrive/issues"
     }
 }
