@@ -60,7 +60,7 @@
   },
   "repository":{
     "type":"git",
-    "url":"git+https://github.com/libDrive/dplayer.git"
+    "url":"git+https://github.com/LibArtutos/dplayer.git"
   },
   "author":"Elias Benbourenane <me@elias.eu.org> (https://elias.eu.org)",
   "funding":[
